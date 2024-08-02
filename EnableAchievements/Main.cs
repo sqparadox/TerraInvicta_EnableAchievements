@@ -43,7 +43,7 @@ namespace EnableAchievements
 			settings.Save(modEntry);
 		}
 
-		internal class Settings : UnityModManager.ModSettings, IDrawable
+		public class Settings : UnityModManager.ModSettings, IDrawable
 		{
 			public override void Save(UnityModManager.ModEntry modEntry)
 			{
